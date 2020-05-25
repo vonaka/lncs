@@ -27,7 +27,8 @@ brings to the definition of the first one:
   \label{lemma:second}
   Second lemma on the second page.
 \end{lemma}
-Click \ref{lemma:second} and go to the first page.
+Click \ref{lemma:second} and go to the first page if you're using the
+original class, otherwise stay here with me.
 
 \end{document}
 ```
