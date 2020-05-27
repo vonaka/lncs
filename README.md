@@ -8,7 +8,7 @@ defined in two different sections, the reference to the second lemma
 brings to the definition of the first one:
 
 ```latex
-\documentclass[envcountsame,envcountsect,runningheads]{llncs}
+\documentclass[envcountsame,envcountsect]{llncs}
 \usepackage{hyperref}
 
 \begin{document}
@@ -19,6 +19,7 @@ brings to the definition of the first one:
   First lemma in the first page of the first section.
 \end{lemma}
 \begin{theorem}
+  \label{th:first}
   Smart theorem.
 \end{theorem}
 \newpage
@@ -29,6 +30,11 @@ brings to the definition of the first one:
 \end{lemma}
 Click \ref{lemma:second} and go to the first page if you're using the
 original class, otherwise stay here with me.
+\begin{theorem}
+  \label{th:second}
+  Yet another smart theorem.
+\end{theorem}
+All this can be used with autoref (\autoref{th:second}).
 
 \end{document}
 ```
