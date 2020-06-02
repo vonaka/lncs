@@ -1,11 +1,11 @@
 ## Springer LNCS LaTeX Class
 
-This is the fix of the bug of the [original][1] Springer LNCS LaTeX
-Template (version 2.20 10-Mar-2018). When the original class is used
-with [hyperref][2] package and `envcountsame` and `envcountsect`
-options some references are broken. For example, if two lemmas are
-defined in two different sections, the reference to the second lemma
-brings to the definition of the first one:
+This is the fix of the [original][1] Springer LNCS LaTeX Template
+(version 2.20 10-Mar-2018). When the original class is used with
+[hyperref][2] package and `envcountsame` and `envcountsect` options
+some references are broken. For example, if two lemmas are defined in
+two different sections, the reference to the second lemma brings to
+the definition of the first one:
 
 ```latex
 \documentclass[envcountsame,envcountsect]{llncs}
